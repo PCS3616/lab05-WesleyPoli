@@ -41,19 +41,4 @@ SALVA   K /0000
 @ /098
     HM /000
     
-    
-;LD ADRESS
-  ;  	AD DOIS
-  ;  	MM ADRESS
-  ;  	MM SALVA
- ;   	LD /028
-;SALVA   K /0000     
- ;colocar embaixo do mm/028 na sc   
-    
-    
-;PEND	K /9100 
-	;LD PEND
-	;AD /002
-    	;MM SALVA
-   
-;SALVA	k /0000
+
