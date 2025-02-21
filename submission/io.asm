@@ -1,14 +1,10 @@
 @ /000
-    GD /000 ;le o MSB do primeiro numero
+    GD /000 
     MM /020
-    GD /000 ;le o LSB do primeiro numero
-    MM /021
-    GD /000 ;le o primeiro espaço
-    GD /000 ;le o segundo espaço
-    GD /000 ;le o MSB do segundo numero
+    GD /000
+    MM /140
+    GD /000
     MM /022
-    GD /000 ;le o LSB do segundo numero
-    MM /023    
     SC PRIMEIRO
     SC SEGUNDO
     LD /020
@@ -63,3 +59,9 @@ AD CONST
 MM /120 ;guarda soma sem carry
 PD /100
 HM /000
+
+
+
+1105
+110
+1100
