@@ -11,6 +11,8 @@
     AD /022
     MM /024 ;soma
     SC TESTE
+    LD /122
+    PD /100
     HM /000
 
 @ /050
@@ -42,8 +44,6 @@ TESTE K /0
     AD OUT
     AD CONST 
     MM /122 ;guarda soma com carry
-    PD /100
-    HM /000
     RS TESTE
 	
  @ /030
@@ -62,6 +62,4 @@ HM /000
 
 
 
-1105
-110
-1100
+
